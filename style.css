@@ -272,7 +272,7 @@ body{
 }
 
 .redirect-pages a{
-    text-decoration: none;
+    
     cursor: pointer;
     font-weight: 400;
     color: rgb(29, 28, 28);
@@ -328,8 +328,4 @@ text-decoration: none;
     color: black;
     font-weight: 600;
     padding: 5px;
-}
-
-#myIframe{
-    margin-top: -50px;
 }
