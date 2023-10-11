@@ -21,9 +21,39 @@ body{
 #logo{
     font-size: 50px;
     font-weight: 400;
+    width: 200px;
     font-family: logoFont;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid transparent;
+    animation: typing 4.5s steps(30, end) 4 , blink-caret 0.5s step-end 16;
 }
 
+#logo:hover{
+    scale: 120% ;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 11%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
 .heading{
     padding-top: 30px;
     justify-content: center;
@@ -55,16 +85,16 @@ body{
     height: 160px;
     border-radius: 50%;
     overflow: hidden;
-    border: solid 7px;
-    border-color: rgb(255, 0, 204);
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(231, 0, 231), rgb(255, 115, 0))
 }
 
 #kalviumlogo{
     cursor: pointer;
-    margin-left: -25px;
-    margin-top: -25px;
-    height: 200px;
+    width: 148px;
+    height: 148px;
 }
 
 
@@ -226,7 +256,7 @@ body{
 }
 
 .individual-post{
-    background-color: #999;
+    background-color: #d8d8d8;
     height: 327px;
     border-radius: 10px;
     width: 374px;
@@ -242,9 +272,64 @@ body{
 }
 
 .redirect-pages a{
+    text-decoration: none;
     cursor: pointer;
     font-weight: 400;
     color: rgb(29, 28, 28);
-    text-decoration: none;
 }
 
+
+/* Footer */
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+    height: 100%;
+    background-color: #d8d8d8;
+    color:white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px 4px 40px 40px;
+    border-bottom: 5px solid rgb(244, 14, 229);
+    padding-bottom: 20px;
+
+}
+
+
+footer a{
+text-decoration: none;
+    background-image: linear-gradient(to right, rgb(231, 0, 231), rgb(255, 115, 0));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.foostack{
+    margin-top: 20px;
+    display: flex;
+    gap: 200px;
+    justify-content: space-evenly;
+    color: white;
+    align-items: end;
+    width: 100%;
+}
+
+
+.foostack a{
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(231, 0, 231), rgb(255, 115, 0));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+
+
+.foostack span{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    padding: 5px;
+}
+
+#myIframe{
+    margin-top: -50px;
+}

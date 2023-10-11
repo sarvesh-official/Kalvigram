@@ -41,4 +41,15 @@ function scrollHorizontally(val) {
 function loadPage(url) {
     var iframe = document.getElementById("myIframe");
     iframe.src = url;
+
+
+    iframe.onload = function() {
+        setIframeHeight(iframe);
+    };
+}
+
+function setIframeHeight(iframe) {
+    if (iframe) {
+        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
 }
