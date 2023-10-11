@@ -34,3 +34,11 @@ function scrollHorizontally(val) {
 
     sCont.style.left = currentScrollPosition + "px"
 }
+
+
+// Iframe
+
+function loadPage(url) {
+    var iframe = document.getElementById("myIframe");
+    iframe.src = url;
+}
