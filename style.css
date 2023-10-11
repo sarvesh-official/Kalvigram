@@ -1,0 +1,248 @@
+@font-face {
+    font-family: logoFont;
+    src: url(FontsFree-Net-Billabong.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inria Sans',
+            sans-serif;
+}
+
+
+/* Logo Header */
+#logo{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: logoFont;
+}
+
+.heading{
+    padding-top: 30px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+
+
+/* Content */
+.contenttop{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Inria Sans',
+        sans-serif;
+}
+/* Profile */
+
+.profile{
+    margin-top: 40px;
+    display: flex;
+    gap: 60px;
+}
+
+
+.logodiv{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid 7px;
+    border-color: rgb(255, 0, 204);
+    
+}
+
+#kalviumlogo{
+    cursor: pointer;
+    margin-left: -25px;
+    margin-top: -25px;
+    height: 200px;
+}
+
+
+
+/* Profile Contents */
+
+.profile-contents h2{
+    padding-top: 25px;
+    font-weight: 400;
+    padding-right: 30px;
+}
+
+.profile-contents{
+    width: 500px;
+    display: flex;
+    gap: 50px;
+}
+
+.profile-contents #edit-button{
+    margin-top:  14px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: solid 0.2px rgb(239, 239, 239);
+    width: 120px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 44px;
+    padding: 10px;
+    
+}
+
+.profile-contents #settings {
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.textprofile{
+    
+    
+}
+
+.counts{
+
+    margin-top: 35px;
+    display: flex;
+    gap: 40px;
+    color: rgb(91, 89, 89);
+    font-weight: 300;
+    width: 400px;
+    align-content: flex-start;
+}
+
+.counts p span{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+
+/* Highlights */
+
+#PORTFOLIO-heading{
+    margin-top: 40px;
+    margin-left: 27%;
+    font-weight: 300;
+}
+
+.highlights{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: #f9f9f9; */
+    /* height: 100vh; */
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999;
+    
+}
+
+.horizontal-scroll{
+    width: 720px;
+    /* margin-left: -10px; */
+    height: 100px;
+    background-color: #fff;
+    border: 1p solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.storys-container{
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    flex-direction: row;
+    transform: 0.5s  all ease-out;
+}
+
+
+.story-cicle{
+    background: linear-gradient(rgb(231,0,231),rgb(255,115,0));
+    width: 90px;
+    height: 90px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transform: rotateZ(45deg);
+}
+
+.story-cicle img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transform: rotateZ(-45deg);
+    border: 2px solid #ffff;
+}
+
+
+/* Scroll Buttons */
+
+.horizontal-scroll .btn-scroll{
+        background-color: #fff;
+        color: #999;
+        box-shadow: 0 0 10px #999 ;
+        padding: 5px 8px;
+        border-radius: 50% ;
+        margin: 0 5px;
+        border: 0;
+        z-index: 1;
+        cursor: pointer;
+        transform: 1s;
+}
+
+
+/* Posts */
+
+.posts{
+    column-gap: 5px;
+    margin-top: 100px;
+    row-gap: 10px;
+    display: grid;
+    width: 80%;
+
+    grid-template-columns: repeat(3,1fr);
+}
+
+.postdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.individual-post{
+    background-color: #999;
+    height: 327px;
+    border-radius: 10px;
+    width: 374px;
+}
+
+
+.redirect-pages{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap:6.3%;
+}
+
+.redirect-pages a{
+    font-weight: 400;
+    color: rgb(29, 28, 28);
+    text-decoration: none;
+}
