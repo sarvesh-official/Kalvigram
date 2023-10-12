@@ -177,7 +177,7 @@ body{
 
 .horizontal-scroll{
     width: 720px;
-    /* margin-left: -10px; */
+    margin-left: -150px;
     height: 100px;
     background-color: #fff;
     border: 1p solid #ddd;
