@@ -106,8 +106,9 @@ body{
 .greytext{
     color: grey;
 }
-.bluetext{
+.bluetext{  
     color: rgb(0, 136, 255);
+    text-decoration: none;
 }
 .profile-contents h2{
     padding-top: 25px;
@@ -282,57 +283,6 @@ body{
     color: rgb(29, 28, 28);
 }
 
-
-/* Footer */
-/* footer{
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 40px;
-    height: 100%;
-    background-color: #d8d8d8;
-    color:white;
-    justify-content: center;
-    text-align: center;
-    border-radius: 4px 4px 40px 40px;
-    border-bottom: 5px solid rgb(244, 14, 229);
-    padding-bottom: 20px;
-
-}
-
-
-footer a{
-text-decoration: none;
-    background-image: linear-gradient(to right, rgb(231, 0, 231), rgb(255, 115, 0));
-    -webkit-background-clip: text;
-    color: transparent; 
-}
-
-.foostack{
-    margin-top: 20px;
-    display: flex;
-    gap: 200px;
-    justify-content: space-evenly;
-    color: white;
-    align-items: end;
-    width: 100%;
-}
-
-
-.foostack a{
-    text-decoration: none;
-    background-image: linear-gradient(to right, rgb(231, 0, 231), rgb(255, 115, 0));
-        -webkit-background-clip: text;
-        color: transparent;
-    }
-
-
-
-.foostack span{
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    color: black;
-    font-weight: 600;
-    padding: 5px;
-} */
 
 .footer_stack{
     text-align: center;
