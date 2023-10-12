@@ -78,7 +78,7 @@ body{
     display: flex;
     gap: 60px;
 }
-
+ 
 
 .logodiv{
     width: 160px;
@@ -100,7 +100,15 @@ body{
 
 
 /* Profile Contents */
-
+.bio{
+    margin-top: 20px;
+}
+.greytext{
+    color: grey;
+}
+.bluetext{
+    color: rgb(0, 136, 255);
+}
 .profile-contents h2{
     padding-top: 25px;
     font-weight: 400;
@@ -132,10 +140,6 @@ body{
     cursor: pointer;
 }
 
-.textprofile{
-    
-    
-}
 
 .counts{
 
