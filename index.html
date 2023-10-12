@@ -70,35 +70,44 @@
                     class="fa-solid fa-chevron-right"></i></button>
 
             <div class="storys-container">
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
-                <div class="story-cicle"><img src="images/Kalviumlogo.png" alt=""></div>
-                <div class="story-cicle"><img src="images/add-btn.png" alt=""></div>
             </div>
-        </div>
+            <script>
+                var storys = document.querySelector(".storys-container")
 
+                var storycircle = [
+                    { "number": './images/top/1.png', "url": "https://rayyjeb.github.io/Portfolio/" },
+                    { "number": "", "url": "https://aayushwrld.github.io/portfolio-final/" },
+                    { "number": "", "url": "https://dapper-stroopwafel-0b4a5f.netlify.app/" },
+                    { "number": "", "url": "https://github.com/Yagna123k/Portfolio-1" },
+                    { "number": "", "url": "https://shivangi-jain-08.github.io/Front-end-webdev-1/" },
+                    { "number": "", "url": "https://quietbooth.github.io/My-Portfolio/" },
+                    { "number": "", "url": "https://rajashree-guha.github.io/Portfolio_/" },
+                    { "number": "", "url": "https://emperorkp.github.io/Profile/" },
+                    { "number": "", "url": "https://spjyotiranjan.github.io/SP-JYOTIRANJAN-SAHOO/" },
+                    { "number": "", "url": "https://mukundmadhav-kalvium.github.io/Portfolio/" },
+                    { "number": "", "url": "https://abhinavrajeshkalvi.github.io/PersonalPortfolio/" },
+                    { "number": "", "url": "https://github.com/Vamshix57/Port-folio" },
+                    { "number": "", "url": "https://harsha-1807.github.io/portfolio/" },
+                    { "number": "", "url": "https://jasonwill2004.github.io/Portfolio/" },
+                    { "number": "", "url": "https://mohammedyaseenkalvium.github.io/portfolio/" },
+                    { "number": "", "url": "https://phoenix1531.github.io/Ak-portfolio/" },
+                    { "number": "", "url": "https://sak23042006.github.io/portfolio/" },
+                    { "number": "", "url": "https://dwij13.github.io/portfolio/" },
+                    { "number": "", "url": "https://max3796.github.io/Portfolio/" },
+                    { "number": "", "url": "https://subhammohanta.github.io/portfolio/" },
+                    { "number": "", "url": "https://ksharugeshwaran.github.io/portfolio.2.0/" },
+                    { "number": "", "url": "https://github.com/jahnavreddy/Myportfolio" },
+                    { "number": "", "url": "https://addarshkumar.github.io/portfolio/" }
+                ];
+
+                storycircle.map((current) => {
+                    var card = `<div class="story-cicle"><a href=${current.url} target="_blank"><img src=${current.number}></a></div>`
+
+                    storys.innerHTML += card
+
+                })
+
+            </script>
     </section>
 
 
