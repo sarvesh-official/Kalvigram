@@ -78,7 +78,7 @@ body{
     display: flex;
     gap: 60px;
 }
-
+ 
 
 .logodiv{
     width: 160px;
@@ -100,7 +100,15 @@ body{
 
 
 /* Profile Contents */
-
+.bio{
+    margin-top: 20px;
+}
+.greytext{
+    color: grey;
+}
+.bluetext{
+    color: rgb(0, 136, 255);
+}
 .profile-contents h2{
     padding-top: 25px;
     font-weight: 400;
@@ -132,10 +140,6 @@ body{
     cursor: pointer;
 }
 
-.textprofile{
-    
-    
-}
 
 .counts{
 
@@ -280,7 +284,7 @@ body{
 
 
 /* Footer */
-footer{
+/* footer{
     font-family: 'Courier New', Courier, monospace;
     margin-top: 40px;
     height: 100%;
@@ -299,7 +303,7 @@ footer a{
 text-decoration: none;
     background-image: linear-gradient(to right, rgb(231, 0, 231), rgb(255, 115, 0));
     -webkit-background-clip: text;
-    color: transparent;
+    color: transparent; 
 }
 
 .foostack{
@@ -328,4 +332,48 @@ text-decoration: none;
     color: black;
     font-weight: 600;
     padding: 5px;
+} */
+
+.footer_stack{
+    text-align: center;
+    margin-top: 40px;
 }
+.toptext{
+    color: rgba(0, 0, 0, 0.70);
+
+    text-align: center;
+    font-family: Literata;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.secondtext{
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    margin-top: 20px;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: normal;
+    font-weight: 400;
+  margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.thirdtext{
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottomborder{
+    margin-top: 20px    ;
+    background: linear-gradient(270deg, #F00 41.6%, rgba(0, 65, 232, 0.72) 67.88%, rgba(173, 0, 255, 0.00) 117.32%);
+    height: 10px;
+}
+
