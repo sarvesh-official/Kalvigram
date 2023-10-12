@@ -108,6 +108,7 @@ body{
 }
 .bluetext{
     color: rgb(0, 136, 255);
+    text-decoration: solid;
 }
 .profile-contents h2{
     padding-top: 25px;
