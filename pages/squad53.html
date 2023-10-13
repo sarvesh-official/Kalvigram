@@ -11,7 +11,6 @@
 <body>
     <section class="postdiv">
         <section class="posts">
-
         </section>
 </body>
 
@@ -22,6 +21,7 @@
 
         {
             "name": "Rajab Shoukath",
+            "image": "https://i.ibb.co/VWjKVwM/2-E3-E2-E50-3-B1-A-4-D3-F-B932-B7764699-C8-DB.png",
             "portfolio": "https://rayyjeb.github.io/Portfolio/",
             "LinkedIn": "https://www.linkedin.com/in/rajab-shoukath-00773b289/",
             "bio": "Crafting seamless user experiences, designing responsive layouts, and optimizing code for delightful web interactions",
@@ -29,6 +29,7 @@
         },
         {
             "name": "Aayush",
+            "image": "https://i.ibb.co/9b85d3M/Photo.png",
             "portfolio": "https://aayushwrld.github.io/portfolio-final/",
             "LinkedIn": "https://linkedin.com/in/aayusharora-ok",
             "bio": "A first-year B.Tech student deeply passionate about coding. My goal is to become a full-stack software developer, and I am always eager to seize opportunities for self-improvement, expanding my expertise in diverse programming languages and frameworks."
@@ -36,6 +37,7 @@
 
         {
             "name": "Krishna Prasath",
+            "image": "https://i.ibb.co/zH8kSfk/Screenshot-20231013-095829-Instagram.png",
             "portfolio": "https://emperorkp.github.io/Profile/",
             "LinkedIn": "https://www.linkedin.com/in/krishna-prasath741",
             "bio": "Living in the moment, thinking about the future, and staying connected to the past: That's what makes me feel whole.",
@@ -43,6 +45,7 @@
         },
         {
             "name": "Harshavardhan",
+            "image": "https://i.ibb.co/wphC0BB/IMG-20231012-WA0019-modified.png",
             "portfolio": "https://harsha-1807.github.io/portfolio/",
             "LinkedIn": "https://www.linkedin.com/in/harshavardhan-s-r-969a67231/",
             "bio": "B.Tech student at Kalvium(squad 53), passionate about engineering innovation, problem-solving, and dedicated to academic excellence and growth.",
@@ -62,6 +65,7 @@
         },
         {
             "name": "Sharugeshwaran",
+            "image": "https://i.ibb.co/2WdhwSD/Untitled-design.png",
             "portfolio": "https://ksharugeshwaran.github.io/portfolio.2.0/",
             "LinkedIn": "https://www.linkedin.com/in/sharugeshwaran-k-83954a279/",
             "bio": "Hi!! I'm Sharugeshwaran from squad 53"
@@ -80,6 +84,7 @@
         },
         {
             "name": "Subham Mohanta",
+            "image": "https://i.ibb.co/ws9QCnD/20231012-231931-0000-removebg-preview.png",
             "portfolio": "https://subhammohanta.github.io/portfolio/",
             "LinkedIn": "https://www.linkedin.com/in/subham-mohanta-59b683289/",
             "bio": "I am currently majoring in CSE at LPU. My native place is Rourkela, Odisha. My hobbies are badminton, music and art.",
@@ -87,16 +92,18 @@
         },
         {
             "name": "Jason William",
+            "image": "https://i.ibb.co/sKDnb8m/E93-C97-F7-B488-4-C70-A1-BF-4242229-E63-D0.png",
             "portfolio": "https://jasonwill2004.github.io/Portfolio/",
             "LinkedIn": "https://www.linkedin.com/in/jason-william-81150b272/",
             "bio": "A passionate coder !!"
         },
         {
-            "name": "B Vishnu",
-            "portfolio": "https://github.com/vishnu10082005/kidz-world-html-boilerplate.git",
-            "LinkedIn": "https://github.com/vishnu10082005/kidz-world-html-boilerplate.git",
+            "name": "Dwij Jindal",
+            "image": "https://i.ibb.co/DWjwZ5Q/Whats-App-Image-2023-10-11-at-22-45-44-bb342baa-1-1.png",
+            "portfolio": "https://dwij13.github.io/portfolio/",
+            "LinkedIn": "https://www.linkedin.com/in/dwij-jindal-7b6588209/",
             "bio": "A passionate student pursuing a degree in Computer Science & Engineering with a specialization in Software Product Engineering at Lovely Professional University x Kalvium"
-        },
+        }
 
     ];
 
@@ -106,6 +113,7 @@
     arrsquad53.map((current) => {
 
         var card = `<div class="individual-post">
+            <img src="${current.image} width="80px" height="180px" alt="${current.name}">
             <h2>${current.name}</h2>
             <h3>${current.bio}</h3>
             <a href="${current.LinkedIn}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">

@@ -22,6 +22,7 @@
     var arrsquad54 = [
         {
             "Name": "Shivangi",
+            "image": "https://i.ibb.co/vcydbPB/IMG-20230613-221011-498-fotor-2023101302022.jpg",
             "LinkedIn": "https://www.linkedin.com/in/shivangi-jain-bb0739289/",
             "Portfolio": "https://shivangi-jain-08.github.io/Front-end-webdev-1/",
             "GitHub": "",
@@ -30,6 +31,7 @@
         },
         {
             "Name": "Rajashree Guha",
+            "image": "https://i.ibb.co/ryL9p5j/Untitled-design-1-removebg-preview.png",
             "LinkedIn": "https://in.linkedin.com/in/rajashree-guha-a3478b279",
             "Portfolio": "https://rajashree-guha.github.io/Portfolio_",
             "GitHub": "https://github.com/rajashree-guha/Portfolio_",
@@ -38,6 +40,7 @@
         },
         {
             "Name": "Sravan Teja",
+            "image": "https://i.ibb.co/pQTfQqb/Front-face.png",
             "LinkedIn": "https://www.linkedin.com/in/sravan-teja-reddy-b37680289",
             "Portfolio": "https://sravanr788.github.io/Frontendwebpage/",
             "GitHub": "https://github.com/sravanr788",
@@ -46,6 +49,7 @@
         },
         {
             "Name": "Manpreet Singh Arora",
+            "image": "https://i.ibb.co/T8wkXNM/87-CD2313-3-F9-A-4-A6-F-BF4-F-378958-F94-BF2.png",
             "LinkedIn": "https://www.linkedin.com/in/manpreet-singh-0b9624283/",
             "Portfolio": "https://dapper-stroopwafel-0b4a5f.netlify.app/",
             "GitHub": "https://github.com/manpreetsingh04m?tab=repositories",
@@ -54,6 +58,7 @@
         },
         {
             "Name": "Mohammed Yaseen Varamangalth",
+            "image": "https://i.ibb.co/DYxWJpH/Whats-App-Image-2023-10-12-at-12-35-07-PM-modified.png",
             "LinkedIn": "https://www.linkedin.com/in/mohammed-yaseen-varamangalath-193661289",
             "Portfolio": "https://mohammedyaseenkalvium.github.io/portfolio/",
             "GitHub": "https://github.com/MohammedYaseenkalvium",
@@ -62,6 +67,7 @@
         },
         {
             "Name": "Arjun",
+            "image": "https://i.ibb.co/W0hN81k/Untitled-design-2.png",
             "LinkedIn": "www.linkedin.com/in/arjun-kotha-b57683289",
             "Portfolio": "https://phoenix1531.github.io/Ak-portfolio/",
             "GitHub": "https://github.com/Phoenix1531/Ak-portfolio",
@@ -70,6 +76,7 @@
         },
         {
             "Name": "Arun Kumar S",
+            "image": "https://i.ibb.co/Xt21nsD/Arun-Kumar.jpg",
             "LinkedIn": "https://www.linkedin.com/in/arun-kumar-s-836535270/",
             "Portfolio": "https://sak23042006.github.io/portfolio/",
             "GitHub": "https://github.com/sak23042006",
@@ -78,6 +85,7 @@
         },
         {
             "Name": "Sarvesh P",
+            "image": "https://i.ibb.co/LgjxGkH/Sarvesh-modified.png",
             "LinkedIn": "https://www.linkedin.com/in/sarvesh-p-1915951a7/",
             "Portfolio": "https://sarvesh5555.github.io/Porfolio/",
             "GitHub": "https://github.com/sarvesh-official",
@@ -86,6 +94,7 @@
         },
         {
             "Name": "Nivaash",
+            "image": "https://i.ibb.co/68CH9vV/IMG-20231012-230714-956-modified.png",
             "LinkedIn": "https://www.linkedin.com/in/nivaash-b3ba231b9",
             "Portfolio": "https://quietbooth.github.io/My-Portfolio/",
             "GitHub": "https://github.com/QuietBooth",
@@ -94,6 +103,7 @@
         },
         {
             "Name": "Abhinav Rajesh",
+            "image": "https://i.ibb.co/6yYTPZz/Untitled-design-1.png",
             "LinkedIn": "https://www.linkedin.com/in/abhinav-rajesh-a42681289/",
             "Portfolio": "https://abhinavrajeshkalvi.github.io/PersonalPortfolio/#skillsets1",
             "GitHub": "https://github.com/AbhinavRajeshKalvi/PersonalPortfolio",
@@ -101,19 +111,22 @@
             "Instagram Profile": "_crossxd"
         },
         {
-            "Name": "Mohammed Yaseen Varamangalth",
-            "LinkedIn": "https://www.linkedin.com/in/mohammed-yaseen-varamangalath-193661289",
-            "Portfolio": "https://mohammedyaseenkalvium.github.io/portfolio/",
-            "GitHub": "https://github.com/MohammedYaseenkalvium",
-            "Bio": "Aspiring software developer, currently mastering front-end web development while pursuing a student's journey to success.",
-            "Instagram Profile": "https://www.instagram.com/myaseen_008/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
-        },]
+            "Name": "Gurpreet Singh Ghuman",
+            "image": "https://i.ibb.co/qpP9Smc/IMG-20231013-WA0001.jpg",
+            "LinkedIn": "https://www.linkedin.com/in/gurpreet-singh-ghuman-67363820a/",
+            "Portfolio": "https://max3796.github.io/Portfolio/",
+            "GitHub": "https://github.com/Max3796",
+            "Bio": "An enthusiastic full-stack developer in the making currently carving my future into a masterpiece.",
+            "Instagram Profile": "https://www.instagram.com/gurpreet._.ghuman/"
+        },
+    ]
 
     var posts = document.querySelector(".posts")
 
     arrsquad54.map((current) => {
 
         var card = `<div class="individual-post">
+            <img src="${current.image} width="80px" height="180px">
             <h2>${current.Name}</h2>
             <h3>${current.Bio}</h3>
             <a href="${current.LinkedIn}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">

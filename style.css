@@ -308,6 +308,10 @@ body{
     font-weight: bold;
 }
 
+.individual-post img{
+    margin-bottom: 20px;
+}
+
 /* Hover effect for the button */
 .individual-post button:hover {
     background-color: #005183;
